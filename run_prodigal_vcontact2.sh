@@ -32,7 +32,7 @@ module load anaconda3
 # To see which versions of anaconda are available use: module av anaconda
 
 # activate an already existing conda environment (CHANGE THE NAME OF THE ENVIRONMENT):
-conda activate OLDENV
+conda activate CONDAENV
 
 # in the following two lines substitute the command with the
 # needed command below:
