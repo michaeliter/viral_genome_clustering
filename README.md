@@ -32,7 +32,8 @@ Here lies the code for taking viral metagenome contigs from human gut microbiome
 <img width="1269" alt="Screen Shot 2024-03-22 at 12 58 57 PM" src="https://github.com/michaeliter/viral_genome_clustering/assets/42823460/8a073a69-834b-4fd7-a199-4760336a182b">
 
 5. Edge Counts By Time Period
-<img width="1283" alt="Screen Shot 2024-03-21 at 10 01 11 PM" src="https://github.com/michaeliter/viral_genome_clustering/assets/42823460/ad91f7da-325a-496f-9fb1-e3b41fca325e">
+<img width="1278" alt="Screen Shot 2024-03-21 at 10 02 35 PM" src="https://github.com/michaeliter/viral_genome_clustering/assets/42823460/5e7703d8-09d5-4fe3-a6d0-a4b1d62a1d54">
+
 
 6. Average Neigbor Composition by Time Period
 <img width="1231" alt="Screen Shot 2024-03-21 at 10 02 14 PM" src="https://github.com/michaeliter/viral_genome_clustering/assets/42823460/0582731f-3f33-4ec6-84c3-fc2468527944">
