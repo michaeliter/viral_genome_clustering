@@ -2,7 +2,7 @@
 Here lies the code for taking viral metagenome contigs from human gut microbiomes, analyzing them for completeness, and then clustering the complete genomes
 
 ## Pipeline:
-1. Extract pre-labeled metagenome contigs by sample type - [get_ind_contigs.sh](get_ind_contigs.sh), [get_pre_contigs.sh](get_pre_contigs.sh), [get_pal_contigs.sh](get_pal_contigs.sh)
+1. Extract pre-labeled metagenome contigs by country of origin - [get_country_contigs.sh](get_country_contigs.sh)
 2. Extract phages from pre-labeled metagenome contigs - [get_phages.sh](get_phages.sh)
 3. Sort phages by length - [sort_contigs.py](sort_contigs.py)
 4. Analyze phage contigs for completeness and lifestyle using CheckV - [run_checkv.sh](run_checkv.sh)
