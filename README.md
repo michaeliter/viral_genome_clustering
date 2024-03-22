@@ -9,3 +9,4 @@ Here lies the code for taking viral metagenome contigs from human gut microbiome
 5. Extract only the complete phage genomes - [make_complete_fasta.sh](make_complete_fasta.sh)
 6. Remove host contamination from genomes using CheckV outputs - [cut_complete_genomes.py](cut_complete_genomes.py)
 7. Create cluster network for complete genomes using Prodigal for ORF calling and vConTACT2 for clustering based on proteins - [run_prodigal_vcontact2.sh](run_prodigal_vcontact2.sh)
+8. Edit network node table to include info about our genomes' time periods and lifestyles - [annotate_network.py](annotate_network.py)
