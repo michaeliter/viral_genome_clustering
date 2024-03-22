@@ -2,10 +2,12 @@ import pandas as pd
 import numpy as np
 from Bio import SeqIO
 
+# read in complete genomes extracted from CheckV, as well as list of proviruses and lytic viruses
 seq_ids = pd.read_csv("complete_seqs.txt", header=None)
 proviruses = list(SeqIO.parse("proviruses.fna", "fasta"))
 lytic_viruses = list(SeqIO.parse("viruses.fna", "fasta"))
 
+# for each genome, find its proviruses or record its lytic viruses without host contamination
 complete_data = []
 for seq in seq_ids[0]:
   check1 = seq + "_"
@@ -24,5 +26,6 @@ for seq in seq_ids[0]:
         count += 1
     if count == 0:
       print(f"Something went wrong with contig {seq}")
-      
-SeqIO.write(complete_data, "pal_complete_cut.fa", "fasta")
+
+# output set of complete viral genomes (with host contamination removed)
+SeqIO.write(complete_data, "genomes_complete_cut.fa", "fasta")
