@@ -18,12 +18,15 @@ Here lies the code for taking viral metagenome contigs from human gut microbiome
    - red = industrial
    - blue = pre-industrial
    - green = paleo
-     <img width="754" alt="time_w_db" src="https://github.com/michaeliter/viral_genome_clustering/assets/42823460/da701959-928a-4b6d-9033-8e693a721735">
+
+<img width="754" alt="time_w_db" src="https://github.com/michaeliter/viral_genome_clustering/assets/42823460/da701959-928a-4b6d-9033-8e693a721735">
+
 3. Network Colored by Lifestyle
    - grey = database
    - purple = lytic
    - orange = temperate
-     <img width="755" alt="life_w_db" src="https://github.com/michaeliter/viral_genome_clustering/assets/42823460/0593d1da-1341-4e70-a604-5b6fde21d04e">
+     
+<img width="755" alt="life_w_db" src="https://github.com/michaeliter/viral_genome_clustering/assets/42823460/0593d1da-1341-4e70-a604-5b6fde21d04e">
 
 
 
