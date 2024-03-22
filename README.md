@@ -10,3 +10,7 @@ Here lies the code for taking viral metagenome contigs from human gut microbiome
 6. Remove host contamination from genomes using CheckV outputs - [cut_complete_genomes.py](cut_complete_genomes.py)
 7. Create cluster network for complete genomes using Prodigal for ORF calling and vConTACT2 for clustering based on proteins - [run_prodigal_vcontact2.sh](run_prodigal_vcontact2.sh)
 8. Edit network node table to include info about our genomes' time periods and lifestyles - [annotate_network.py](annotate_network.py)
+
+## Analyses:
+1. Lifestyle Frequencies by Time Period: <img width="1282" alt="lifestyle_freqs" src="https://github.com/michaeliter/viral_genome_clustering/assets/42823460/6428194c-d679-47f0-b9de-e19d57459f40">
+
