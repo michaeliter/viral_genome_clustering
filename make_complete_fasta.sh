@@ -11,14 +11,15 @@ done
 cd $SCRATCH/${country}_checkv
 touch $SCRATCH/complete_genomes/${country}_complete.fa
 
+# extract list of ids for complete genomes
 grep "Complete" quality_summary.tsv | cut -f 1 > complete_seqs.txt
 seqIds="complete_seqs.txt"
 
-# Check if both files exist
+# match ids with complete genome
 if [ -e "$seqIds" ]; then
-    # Use a while loop to read lines from both files simultaneously
+    # use a while loop to read lines from both files simultaneously
     while IFS= read -r seq; do
-        # Process lines from both files (replace with your own logic)
+        # find corresponding genome
         grep -A 1 -h --no-group-separator "${seq} " $SCRATCH/${country}_phages.fa >> $SCRATCH/complete_genomes/${country}_complete.fa 
     done < "$seqIds"
 else
