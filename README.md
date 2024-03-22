@@ -28,5 +28,22 @@ Here lies the code for taking viral metagenome contigs from human gut microbiome
      
 <img width="755" alt="life_w_db" src="https://github.com/michaeliter/viral_genome_clustering/assets/42823460/0593d1da-1341-4e70-a604-5b6fde21d04e">
 
+4. Edge Lengths By Time Period
+<img width="1269" alt="Screen Shot 2024-03-22 at 12 58 57 PM" src="https://github.com/michaeliter/viral_genome_clustering/assets/42823460/8a073a69-834b-4fd7-a199-4760336a182b">
+
+5. Edge Counts By Time Period
+<img width="1283" alt="Screen Shot 2024-03-21 at 10 01 11 PM" src="https://github.com/michaeliter/viral_genome_clustering/assets/42823460/ad91f7da-325a-496f-9fb1-e3b41fca325e">
+
+6. Average Neigbor Composition by Time Period
+<img width="1231" alt="Screen Shot 2024-03-21 at 10 02 14 PM" src="https://github.com/michaeliter/viral_genome_clustering/assets/42823460/0582731f-3f33-4ec6-84c3-fc2468527944">
+<img width="1173" alt="Screen Shot 2024-03-21 at 10 02 06 PM" src="https://github.com/michaeliter/viral_genome_clustering/assets/42823460/8e7e9ddb-2b5c-4d59-814d-cfa6fe74fe40">
+<img width="1197" alt="Screen Shot 2024-03-21 at 10 01 58 PM" src="https://github.com/michaeliter/viral_genome_clustering/assets/42823460/5436c1a9-46e3-4ab3-b59b-1b3becb6afe5">
+
+
+
+
+
+
+
 
 
